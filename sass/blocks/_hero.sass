@@ -1,0 +1,47 @@
+.hero
+    background: url('/img/hero/hero-bg.jpg')
+    &-block
+        display: flex
+        flex-direction: column
+    &-navbar
+        display: flex
+        align-items: center
+        justify-content: space-around
+        &__logo
+            margin-right: auto
+            margin-left: 0
+            margin-top: 19px
+    &-contacts
+        display: flex
+        flex-direction: column 
+        color: $text-color  
+        &__subtitle
+            font-size: 14px
+            +reg
+            margin-bottom: 10px
+        &__phone
+            text-decoration: none
+            color: $text-color
+            font-size: 20px
+            +bold
+    &-main
+        display: flex
+        flex-direction: column
+        align-items: center
+        color: $text-color
+        &__title
+            +med
+            text-transform: uppercase
+            font-size: 60px
+            margin-top: 180px
+            margin-bottom: 45px
+        &__subtitle
+            +reg
+            font-size: 20px
+            text-transform: uppercase
+            margin-bottom: 14px
+        &__description
+            +reg
+            font-size: 16px
+            margin-bottom: 100px
+        &__button
