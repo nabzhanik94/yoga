@@ -444,4 +444,50 @@ h3 {
     margin-left: 50px;
   }
 }
+
+.expectations {
+  background-color: #f8f2e4;
+}
+
+.expectations-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 80px;
+}
+
+.expectations-block__title {
+  font-family: 'Muller Medium';
+  font-size: 36px;
+}
+
+.expectations-block__icon {
+  margin-bottom: 80px;
+}
+
+.slider {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+h4 {
+  margin-bottom: 0;
+}
 /*# sourceMappingURL=style.css.map */
