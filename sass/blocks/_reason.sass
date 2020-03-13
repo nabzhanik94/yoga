@@ -1,0 +1,60 @@
+.reason
+    &-block
+        display: flex
+        flex-direction: column
+        justify-content: center
+        align-items: center
+        margin-top: 80px
+        &__title
+            display: flex
+            +med
+            font-size: 36px
+            margin: 0
+            text-align: center
+        &__icon 
+            margin-bottom: 70px
+    &-cards
+        display: flex
+        justify-content: center
+        flex-wrap: wrap    
+        margin-bottom: 60px            
+    &-card
+        display: flex
+        flex-direction: column
+        // flex-shrink: 1
+        align-items: center
+        // justify-content: center
+        margin-right: 70px 
+        &__image
+            margin-bottom: 20px
+        &__subtitle
+            +reg
+            font-size: 16px
+            width: 245px
+            text-align: center
+            margin-bottom: 45px
+h3
+    margin: 0
+
+@media (max-width: 1200px)
+    .reason
+        &-block        
+            margin-top: 40px        
+            &__icon 
+                margin-bottom: 40px
+        &-cards  
+            margin-bottom: 10px 
+            // justify-content: space-around             
+        &-card        
+            margin-right: 40px 
+            &__image
+                margin-bottom: 15px
+            &__subtitle
+                margin-bottom: 30px
+@media (max-width: 648px)
+    .reason
+        &-block  
+        &-card
+            margin-right: 50px
+            margin-left: 50px
+            
