@@ -384,7 +384,6 @@
           justify-content: center;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  margin-bottom: 60px;
 }
 
 .reason-card {
@@ -450,44 +449,71 @@ h3 {
 }
 
 .expectations-block {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin-top: 80px;
+  display: block;
+  padding-bottom: 50px;
+  margin: auto;
 }
 
 .expectations-block__title {
   font-family: 'Muller Medium';
   font-size: 36px;
+  padding-top: 80px;
+  text-align: center;
 }
 
 .expectations-block__icon {
   margin-bottom: 80px;
+  text-align: center;
 }
 
 .slider {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  background-color: #444444;
+  opacity: 0.5;
+  max-width: 940px;
+}
+
+.slider__item {
+  margin-right: 20px;
+  position: relative;
+}
+
+.slider__image {
+  margin: auto;
+}
+
+.slider-text {
+  position: absolute;
+  top: 35%;
+  left: 25%;
+  text-align: center;
+  max-width: 470px;
+  color: #fff;
+}
+
+.slider-text__title {
+  font-family: 'Muller Medium';
+  font-size: 26px;
+  text-transform: uppercase;
+  margin: 0;
+  padding-bottom: 25px;
+}
+
+.slider-text__subtitle {
+  font-family: 'Muller Regular';
+  font-size: 18px;
+}
+
+.slider-text__void {
+  border: 1px solid #ffffff;
+  width: 900px;
+  height: 490px;
+  position: absolute;
+  top: -145%;
+  right: -47%;
 }
 
 h4 {
   margin-bottom: 0;
+  margin-top: 0;
 }
 /*# sourceMappingURL=style.css.map */

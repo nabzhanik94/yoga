@@ -8,6 +8,7 @@
     <!-- <link rel="stylesheet" href="/css/bootstrap.min.css"> -->
     <link rel="stylesheet" href="/css/animate.css">
     <link rel="stylesheet" href="/css/slick.css">
+    <link rel="stylesheet" href="/css/slick-theme.css">
     <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
@@ -133,18 +134,40 @@
                         <img src="/img/expectations/expectations-icon.png" alt="">
                     </div>
                     <div class="slider">
-                        <div class="slider__item"><img class="slider__image" src="/img/expectations/expectations-img.jpg" alt=""></div>
-                        <div class="slider__item"><img class="slider__image" src="/img/expectations/expectations-img.jpg" alt=""></div>
+                        <div class="slider__item">
+                            <img class="slider__image" src="/img/expectations/expectations-img.jpg" alt="">
+                            <div class="slider-text">
+                                <h5 class="slider-text__title">аюрведическое лечение</h5>
+                                <span class="slider-text__subtitle">Всем, кто практикует йогу, рано или поздно захочется побывать в Индии - в далекой и загадочной стране, где и родилась эта наука о теле и душе.</span>
+                                <div class="slider-text__void"></div>
+                            </div>
+                        </div>
+                        <div class="slider__item">
+                            <img class="slider__image" src="/img/expectations/expectations-img.jpg" alt="">
+                        </div>
+                        <div class="slider__item">
+                            <img class="slider__image" src="/img/expectations/expectations-img.jpg" alt="">
+                        </div>
+                        <div class="slider__item">
+                            <img class="slider__image" src="/img/expectations/expectations-img.jpg" alt="">
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
     </main>
-    <script src="js/wow.min.js"></script>
-              <script>
-              new WOW().init();
+    <script src="/js/jquery-3.4.1.min.js"></script>
+    <script src="/js/slick.min.js"></script>    
+    <script src="/js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+        $(document).ready(function() {
+            $('.slider').slick({
+                slidesToShow: 1,
+                slidesToScroll: 1
+            });
+        });
     </script>
-    <script src="js/slick.min.js"></script>
-    <script src="/js/main.js"></script>
+    
 </body>
 </html>
