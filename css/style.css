@@ -516,4 +516,92 @@ h4 {
   margin-bottom: 0;
   margin-top: 0;
 }
+
+.timetable-block {
+  text-align: center;
+}
+
+.timetable-block__title {
+  margin: auto;
+  margin-top: 80px;
+  font-family: 'Muller Medium';
+  font-size: 36px;
+}
+
+.timetable-block__image {
+  margin-bottom: 70px;
+}
+
+.cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.card {
+  background-color: #fff8e6;
+  margin-bottom: 20px;
+}
+
+.card__subtitle {
+  color: #4b4b4b;
+  font-family: 'Muller Regular';
+  font-size: 14px;
+  padding: 30px 65px 15px 65px;
+}
+
+.card__title {
+  font-family: 'Muller Medium';
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.card__link {
+  display: block;
+  font-family: 'Muller Regular';
+  color: #5a56af;
+  font-size: 12px;
+  margin-bottom: 20px;
+}
+
+.card__button {
+  display: block;
+  color: #e28234;
+  font-family: 'Muller Bold';
+  font-size: 12px;
+  text-decoration: none;
+  position: relative;
+  margin-bottom: 20px;
+  border: 2px solid #e28234;
+  padding: 15px 30px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.card__button:hover {
+  color: #ffffff;
+}
+
+.card__button:hover::after {
+  height: 40px;
+}
+
+.card__button:after {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  bottom: -4%;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 3px;
+  background-color: #e28234;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
 /*# sourceMappingURL=style.css.map */
