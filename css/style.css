@@ -610,4 +610,65 @@ h4 {
   -webkit-transition: 0.2s;
   transition: 0.2s;
 }
+
+.program {
+  background: url("/img/program/bg.jpg");
+  background-size: 1000px 500px;
+}
+
+.program-block {
+  text-align: center;
+  padding-top: 80px;
+}
+
+.program-block__title {
+  font-family: 'Muller Medium';
+  font-size: 36px;
+}
+
+.program-block__image {
+  margin-bottom: 80px;
+}
+
+.program-slider {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.program-slider__item {
+  display: block;
+}
+
+.program-slider__item1 {
+  max-width: 940px;
+  max-height: 530px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.program-slider__item2 {
+  max-width: 850px;
+  max-height: 480px;
+  margin-right: 30px;
+}
+
+.program-slider__item3 {
+  max-width: 850px;
+  max-height: 480px;
+}
 /*# sourceMappingURL=style.css.map */

@@ -246,6 +246,39 @@
                 </div>
             </div>
         </section>
+        <section class="program">
+            <div class="container">
+                <div class="program-block">
+                    <h3 class="program-block__title">Расписание йога-туров</h3>
+                    <div class="program-block__image"><img src="/img/timetable/timetable-image.png" alt="">
+                    </div>
+                </div>
+            </div>
+                    <div class="program-slider">
+                        <div class="program-slider__item1 program-slider__item">
+                            <img class="program-slider__image" src="/img/program/program-slide1.jpg" alt="">
+                            <!-- <div class="program-slider__text">
+                                <h5 class="program-slider__title">1 день</h5>
+                                <span class="program-slider__subtitle">Прилет в Тривандрум, трансфер до йога-центра, знакомство, обзорная прогулка по Варкале, индивидуальная консультация врача-аюрведиста.</span>                                
+                            </div> -->
+                        </div>
+                        <div class="program-slider__item2 program-slider__item">
+                            <img class="program-slider__image" src="/img/program/program-slide2.jpg" alt="">
+                            <!-- <div class="program-slider__text">
+                                <h5 class="program-slider__title">аюрведическое лечение</h5>
+                                <span class="program-slide__subtitle">Всем, кто практикует йогу, рано или поздно захочется побывать в Индии - в далекой и загадочной стране, где и родилась эта наука о теле и душе.</span>                                
+                            </div> -->
+                        </div>
+                        <div class="program-slider__item3 program-slider__item">
+                            <img class="program-slider__image" src="/img/program/program_slide3.jpg" alt="">
+                            <!-- <div class="program-slider__text">
+                                <h5 class="program-slider__title">аюрведическое лечение</h5>
+                                <span class="program-slide__subtitle">Всем, кто практикует йогу, рано или поздно захочется побывать в Индии - в далекой и загадочной стране, где и родилась эта наука о теле и душе.</span>                                
+                            </div> -->
+                        </div>
+                    </div>
+                
+        </section>
     </main>
     <script src="/js/jquery-3.4.1.min.js"></script>
     <script src="/js/slick.min.js"></script>    
@@ -256,6 +289,14 @@
             $('.slider').slick({
                 slidesToShow: 1,
                 slidesToScroll: 1
+            });
+            $('.program-slider').slick({
+                dots: true,
+                infinite: true,
+                speed: 300,
+                slidesToShow: 1,
+                centerMode: true,
+                variableWidth: true
             });
         });
     </script>
