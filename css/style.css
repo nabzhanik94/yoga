@@ -545,7 +545,12 @@ h4 {
 
 .card {
   background-color: #fff8e6;
-  margin-bottom: 20px;
+  margin-bottom: 80px;
+}
+
+.card:hover {
+  -webkit-box-shadow: 0 20px 25px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 20px 25px rgba(0, 0, 0, 0.1);
 }
 
 .card__subtitle {
@@ -585,10 +590,11 @@ h4 {
 
 .card__button:hover {
   color: #ffffff;
+  z-index: 1;
 }
 
 .card__button:hover::after {
-  height: 40px;
+  height: 45px;
 }
 
 .card__button:after {

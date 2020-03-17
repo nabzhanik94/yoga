@@ -14,7 +14,9 @@
     flex-wrap: wrap
 .card
     background-color: #fff8e6
-    margin-bottom: 20px
+    margin-bottom: 80px
+    &:hover
+        box-shadow: 0 20px 25px rgba(0, 0, 0, 0.1)
     &__subtitle
         color: #4b4b4b
         +reg
@@ -45,8 +47,9 @@
         margin-left: 20px
         &:hover
             color: #ffffff
+            z-index: 1
             &::after
-                height: 40px
+                height: 45px
         &:after
             content: ''
             position: absolute
