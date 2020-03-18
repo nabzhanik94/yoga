@@ -1,0 +1,72 @@
+.gallery
+    &-block
+        background: url('/img/gallery/gallery-bg.jpg') no-repeat
+        display: flex
+        margin-bottom: 80px
+        text-align: center
+    &-images
+        display: flex
+        flex-wrap: wrap
+        // max-height: 620px
+        padding-top: 30px
+        // margin-top: 30px        
+        // margin-left: auto
+        justify-content: center
+        align-items: center
+        // flex-basis: 20%
+        &__img
+            margin-right: 20px
+            margin-bottom: 20px
+    &-text
+        display: flex
+        flex-direction: column
+        // max-width: 475px
+        flex-basis: 190%
+        text-align: left
+        &__title
+            +med
+            font-size: 30px
+            margin-top: 55px
+            // margin-bottom: 9px
+        &__subtitle
+            +reg
+            font-size: 14px
+            color: #4b4b4b
+            margin-bottom: 35px
+        &__description
+            +reg
+            font-size: 12px
+            max-width: 800px                  
+            margin-bottom: 55px 
+            margin-top: 0 
+    &-facilities
+        display: flex
+        justify-content: space-between
+    &-list
+        display: flex
+        flex-direction: column
+        margin: 0
+        padding: 0
+        color: #454545
+        +reg
+        font-size: 12px
+        &__item
+            display: flex
+            max-width: 218px
+            margin-bottom: 12px
+            &:last-child
+                margin-bottom: 0
+        &__image
+            margin-right: 15px
+@media (max-width: 1200px)
+    .gallery
+        background: url('/img/gallery/gallery-bg.jpg')
+@media (max-width: 770px)
+    .gallery
+        &-block
+            flex-direction: column
+        &-text
+            &__title, &__subtitle
+                text-align: center
+        &-facilities
+            justify-content: space-around
