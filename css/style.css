@@ -611,6 +611,19 @@ h4 {
   transition: 0.2s;
 }
 
+@media (max-width: 500px) {
+  .timetable-block__title {
+    max-width: 250px;
+  }
+}
+
+@media (max-width: 488px) {
+  .card {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
 .program {
   background: url("/img/program/bg.jpg");
   background-size: 1000px 500px;
@@ -670,5 +683,76 @@ h4 {
 .program-slider__item3 {
   max-width: 850px;
   max-height: 480px;
+}
+
+.info-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+}
+
+.info-text {
+  margin-bottom: 60px;
+}
+
+.info-text__title {
+  font-family: 'Muller Medium';
+  font-size: 36px;
+  margin-top: 55px;
+}
+
+.info-text__icon {
+  margin-bottom: 70px;
+}
+
+.info-text__subtitle {
+  font-family: 'Muller Regular';
+  font-size: 18px;
+  max-width: 920px;
+}
+
+.info-program {
+  max-width: 650px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 70px;
+}
+
+.info-program__title {
+  font-family: 'Muller Medium';
+  font-size: 24px;
+  margin-bottom: 60px;
+}
+
+.info-list {
+  margin: 0;
+  padding: 0;
+  font-family: 'Muller Regular';
+  font-size: 18px;
+}
+
+.info-list__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 30px;
+}
+
+.info-list__item:last-child {
+  margin-bottom: 0;
+}
+
+.info-list__text {
+  margin-left: 40px;
+  max-width: 470px;
+  text-align: left;
 }
 /*# sourceMappingURL=style.css.map */

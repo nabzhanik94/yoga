@@ -1,0 +1,42 @@
+.info
+    &-block
+        display: flex
+        flex-direction: column
+        text-align: center
+    &-text
+        margin-bottom: 60px
+        &__title
+            +med
+            font-size: 36px
+            margin-top: 55px    
+        &__icon
+            margin-bottom: 70px
+        &__subtitle
+            +reg
+            font-size: 18px
+            max-width: 920px
+    &-program
+        max-width: 650px
+        margin-left: auto
+        margin-right: auto
+        margin-bottom: 70px
+        &__title
+            +med
+            font-size: 24px
+            margin-bottom: 60px
+    &-list
+        margin: 0
+        padding: 0
+        +reg
+        font-size: 18px
+        &__item
+            display: flex
+            align-items: center
+            margin-bottom: 30px
+            &:last-child
+                margin-bottom: 0
+        &__image
+        &__text
+            margin-left: 40px
+            max-width: 470px
+            text-align: left
